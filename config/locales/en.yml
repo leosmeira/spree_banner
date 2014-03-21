@@ -1,4 +1,5 @@
 en:
+  destroy: 'Delete'
   images_only: "deve essere JPG, JPEG, PNG o GIF"
   banner_box_settings: "Banner Settings"
   add_new_banner_style: "Add New Banner Style"
