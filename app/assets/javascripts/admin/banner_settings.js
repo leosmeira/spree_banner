@@ -1,5 +1,9 @@
 $(document).ready(function() {
 
+  $('.ajax-enable-update .edit_banner_box').live("click", function(e) {
+    $(this).submit();
+  });
+
 	$('.destroy_banner_style').live("click", function(e) {
 		e.preventDefault();
 		$(this).parent().remove();
