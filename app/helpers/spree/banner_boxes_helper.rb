@@ -3,6 +3,7 @@ module Spree
 
     def insert_banner_box(params={})
       params[:category] ||= "home"
+      params[:ul_class] ||= "banners"
       params[:class] ||= "banner"
       params[:style] ||= SpreeBanner::Config[:banner_default_style]
       params[:list] ||= false
@@ -10,7 +11,7 @@ module Spree
       return '' if banners.empty?
 
       if params[:list]
-        content_tag :ul do
+        content_tag :ul, :class => params[:ul_class] do
           banners.map do |ban|
             content_tag :li, :class => params[:class] do
               link_to (ban.url.blank? ? "javascript: void(0)" : ban.url) do
