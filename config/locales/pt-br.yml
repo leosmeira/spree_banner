@@ -1,0 +1,42 @@
+pt-BR:
+  spree:
+    show_only_enabled: "Exibir apenas ativos"
+    admin:
+      tab:
+        banner_boxes: Banners
+        banner_box_settings: "Configurações"
+  update: Atualizar     
+  images_only: "apenas imagens JPG, JPEG, PNG e GIF"
+  banner_box_settings: "Configurações de Banner"
+  add_new_banner_style: "Adicionar Novo Estilo no Banner"
+  banner_box_settings_warning: "Você vai precisar de regenerar as miniaturas se você atualizar os estilos paperclip. Use rake paperclip:refresh:thumbnails CLASS=Spree::Banner para fazer isto."
+  banner_settings_description: "Configurações da descrição do Banner"
+  banner_settings_updated: "Configurações do Banner atualizado com sucesso."
+  banner_default_style: "Banner Caminho padrão"
+  banner_default_url: "Banner padrão URL"
+  banner_path: "Caminho Banner"
+  banner_styles: "Estilos paperclip Banner"
+  banner_url: "Banner URL"
+  back_to_banner_boxes_list: "Voltar para a lista de banners"
+  new_banner_box: "Novo Banner"
+  listing_banner_boxes: "Lista de Banners"
+  enabled: Ativado?
+  url: Link url
+  attachment: "Imagem"
+  category: Categoria
+  banner_boxes: Banners
+  banner_box: Banner
+  notice_messages:
+    banner_box_cloned: "Banner foi copiado"
+    banner_box_not_cloned: "Banner não podia ser copiado"
+  activerecord:
+    models:
+      banner_box:
+        one: Banner
+        other: Banners
+    attributes:
+      banner_box:
+        category: Categoria
+        updated_at: Atualizado em
+        created_at: Criado em
+        enabled: Ativado?
