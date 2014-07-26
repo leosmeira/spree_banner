@@ -1,6 +1,7 @@
 pt-BR:
   spree:
     show_only_enabled: "Exibir apenas ativos"
+    banner_box_settings: "Configurações do Banner"
     admin:
       tab:
         banner_boxes: Banners
